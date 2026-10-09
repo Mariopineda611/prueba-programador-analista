@@ -1,0 +1,1 @@
+SELECT c.FirstName, c.LastName, c.Company, c.Country FROM customer c WHERE c.City != 'USA' ORDER BY c.Country ASC;
